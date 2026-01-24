@@ -2,9 +2,9 @@
 import { Image } from 'astro:assets';
 import type { CollectionEntry } from 'astro:content';
 import BaseHead from '../components/BaseHead.astro';
-import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
-import Header from '../components/Header.astro';
+
+import MainLayout from './MainLayout.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -16,9 +16,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<BaseHead title={title} description={description} />
 	</head>
 
-	<body class="bg-slate-950 text-gray-200 min-h-screen flex flex-col">
-		<Header />
-		
+	<MainLayout>
 		<main class="w-full max-w-4xl mx-auto px-4 py-12 grow">
 			<article>
 				<div class="mb-10">
@@ -28,12 +26,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 							height={510}
 							src={heroImage}
 							alt=""
-							class="rounded-2xl shadow-2xl shadow-black/50 w-full object-cover aspect-video"
+							class="rounded-2xl shadow-2xl shadow-neutral-950/50 w-full object-cover aspect-video"
 						/>}
 				</div>
 
-				<div class="text-center mb-12 border-b border-gray-800 pb-8">
-					<div class="text-gray-500 mb-2 font-mono text-sm uppercase tracking-wide">
+				<div class="text-center mb-12 border-b border-neutral-400 pb-8">
+					<div class="text-neutral-400 mb-2 font-mono text-sm uppercase tracking-wide">
 						<FormattedDate date={pubDate} />
 						{
 							updatedDate && (
@@ -43,21 +41,19 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 							)
 						}
 					</div>
-					<h1 class="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
+					<h1 class="text-4xl md:text-5xl font-bold text-neutral-200 mb-4 leading-tight">
 						{title}
 					</h1>
 				</div>
 
 				<div class="prose prose-lg prose-invert mx-auto max-w-none
-					prose-headings:text-gray-100
-					prose-p:text-gray-300
-					prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline
+					prose-headings:text-neutral-200
+					prose-p:text-neutral-400
+					prose-a:text-red-800 prose-a:no-underline hover:prose-a:underline
 					prose-img:rounded-xl">
 					<slot />
 				</div>
 			</article>
 		</main>
-
-		<Footer />
-	</body>
+	</MainLayout>
 </html>
